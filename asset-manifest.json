@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simi-quote-generator/static/css/main.bed5da8f.css",
+    "main.js": "/simi-quote-generator/static/js/main.8357284c.js",
+    "static/js/787.39edc267.chunk.js": "/simi-quote-generator/static/js/787.39edc267.chunk.js",
+    "index.html": "/simi-quote-generator/index.html",
+    "main.bed5da8f.css.map": "/simi-quote-generator/static/css/main.bed5da8f.css.map",
+    "main.8357284c.js.map": "/simi-quote-generator/static/js/main.8357284c.js.map",
+    "787.39edc267.chunk.js.map": "/simi-quote-generator/static/js/787.39edc267.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bed5da8f.css",
+    "static/js/main.8357284c.js"
+  ]
+}
