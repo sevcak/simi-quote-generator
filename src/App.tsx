@@ -7,14 +7,14 @@ function App() {
   return (
     <div 
       className='
-        w-screen h-screen flex flex-col items-center justify-center p-10 gap-10 duration-700
+        w-screen h-screen flex flex-col items-center justify-center p-6 gap-10 duration-700
       '
       style={{background: color}}
     >
       <div className='relative w-full md:w-[32rem]'>
         <div
           className='
-            text-white font-bold text_border text-2xl
+            text-white font-bold text_border text-xl md:text-2xl
             absolute -bottom-14 -left-4 -rotate-3 hover:scale-110 duration-500
           '
         >

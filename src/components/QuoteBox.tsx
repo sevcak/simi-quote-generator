@@ -36,7 +36,7 @@ const QuoteBox = ({ color, setColor }: { color: string, setColor: Function }) =>
         </div>
         <div className='text-right'>~ <span id='author'>Šimi</span></div>
         {/* Buttons */}
-        <div className='mt-12 flex flex-row justify-between items-end'>
+        <div className='mt-12 flex flex-col items-start md:flex-row md:items-end justify-between gap-4'>
           {/* Share */}
           <div>
             <a
@@ -54,7 +54,7 @@ const QuoteBox = ({ color, setColor }: { color: string, setColor: Function }) =>
           <button
             id='new-quote'
             onClick={newQuote}
-            className='p-2 text-white text-lg rounded-md hover:scale-95 duration-500 tracking-wide'
+            className='p-2 text-white text-lg rounded-md hover:scale-95 duration-500 tracking-wide w-full md:w-fit'
             style={{background: color}}
           >
             🗣️ NECHATJE HO VARIŤ
