@@ -2,10 +2,15 @@ import { QuoteBox } from './components/QuoteBox';
 
 function App() {
   return (
-    <div className='flex flex-col items-center px-20 py-64 gap-10'>
+    <div 
+      className='
+        w-screen h-screen flex flex-col items-center justify-center p-10 gap-10
+        bg-rose-400
+      '
+    >
       <QuoteBox />
-      <div>
-        coded by <a href="https://github.com/sevcak" className='text-blue-600'>sevcak</a>
+      <div className='text-white'>
+        coded by <a href="https://github.com/sevcak" className='font-bold hover:underline underline-offset-4'>sevcak</a>
       </div>
     </div>
   );
