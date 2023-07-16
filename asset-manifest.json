@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/simi-quote-generator/static/css/main.b1610a5b.css",
-    "main.js": "/simi-quote-generator/static/js/main.4a570772.js",
+    "main.css": "/simi-quote-generator/static/css/main.71665168.css",
+    "main.js": "/simi-quote-generator/static/js/main.3d125ae7.js",
     "static/js/787.39edc267.chunk.js": "/simi-quote-generator/static/js/787.39edc267.chunk.js",
     "static/media/twitter.svg": "/simi-quote-generator/static/media/twitter.8097ca9d65869e4d98f98b7b4a06e547.svg",
     "index.html": "/simi-quote-generator/index.html",
-    "main.b1610a5b.css.map": "/simi-quote-generator/static/css/main.b1610a5b.css.map",
-    "main.4a570772.js.map": "/simi-quote-generator/static/js/main.4a570772.js.map",
+    "main.71665168.css.map": "/simi-quote-generator/static/css/main.71665168.css.map",
+    "main.3d125ae7.js.map": "/simi-quote-generator/static/js/main.3d125ae7.js.map",
     "787.39edc267.chunk.js.map": "/simi-quote-generator/static/js/787.39edc267.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1610a5b.css",
-    "static/js/main.4a570772.js"
+    "static/css/main.71665168.css",
+    "static/js/main.3d125ae7.js"
   ]
 }
