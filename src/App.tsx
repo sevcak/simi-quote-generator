@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import { QuoteBox } from './components/QuoteBox';
 
 function App() {
+  const [color, setColor] = useState('salmon');
+
   return (
     <div 
       className='
-        w-screen h-screen flex flex-col items-center justify-center p-10 gap-10
-        bg-rose-400
+        w-screen h-screen flex flex-col items-center justify-center p-10 gap-10 duration-700
       '
+      style={{background: color}}
     >
       <div className='relative w-full md:w-[32rem]'>
         <div
@@ -18,7 +21,7 @@ function App() {
           🗣️ Šimi chcel variť 🔥🔥🔥🔥💀
       </div>
       </div>
-      <QuoteBox />
+      <QuoteBox color={color} setColor={setColor}/>
       <div className='text-white'>
         coded by <a href="https://github.com/sevcak" className='font-bold hover:underline underline-offset-4'>sevcak</a>
       </div>
