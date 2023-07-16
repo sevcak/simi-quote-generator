@@ -11,6 +11,16 @@ const QuoteBox = () => {
 
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(getRandomInt(0, quotes.length));
 
+  const newQuote = () => {
+    let newIndex = getRandomInt(0, quotes.length);
+
+    while (newIndex === currentQuoteIndex) {
+      newIndex = getRandomInt(0, quotes.length);
+    }
+
+    setCurrentQuoteIndex(newIndex);
+  }
+
   return (
     <div
       id='quote-box'
@@ -22,8 +32,7 @@ const QuoteBox = () => {
         </div>
         <div className='text-right'>~ <span id='author'>Šimi</span></div>
         {/* Buttons */}
-        <div className='mt-12'>
-          <div id='new-quote'></div>
+        <div className='mt-12 flex flex-row justify-between items-end'>
           {/* Share */}
           <div>
             <a
@@ -36,6 +45,14 @@ const QuoteBox = () => {
               <img src={twitter} alt="tweet" className='w-6 h-6' />
             </a>
           </div>
+          {/* New quote button */}
+          <button
+            id='new-quote'
+            onClick={newQuote}
+            className='p-2 bg-rose-400 text-white text-lg rounded-md hover:scale-95 duration-500 tracking-wide'
+          >
+            🗣️ NECHATJE HO VARIŤ
+          </button>
         </div>
       </div>
     </div>
