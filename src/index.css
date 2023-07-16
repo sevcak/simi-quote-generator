@@ -11,6 +11,13 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.text_border {
+  text-shadow: -1.6px 1.6px 0 #000,
+                1.6px 1.6px 0 #000,
+                1.6px -1.6px 0 #000,
+               -1.6px -1.6px 0 #000;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

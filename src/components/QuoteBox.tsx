@@ -25,7 +25,7 @@ const QuoteBox = () => {
               href={`
               https://twitter.com/intent/tweet?text=„${quotes[currentQuoteIndex]}“%0A~Šimi%0A---%0Asevcak.github.io/simi-quote-generator
               `}
-              className='block w-fit h-fit p-2 bg-rose-400 rounded-full'
+              className='block w-fit h-fit p-2 bg-rose-400 rounded-full hover:scale-90 duration-500'
             >
               <img src={twitter} alt="tweet" className='w-6 h-6' />
             </a>
