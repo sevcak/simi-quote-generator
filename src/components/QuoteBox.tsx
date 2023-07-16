@@ -3,7 +3,13 @@ import quotes from '../data/quotes.json';
 import twitter from '../icons/twitter.svg'
 
 const QuoteBox = () => {
-  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
+  const getRandomInt = (min: number, max: number) => {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  const [currentQuoteIndex, setCurrentQuoteIndex] = useState(getRandomInt(0, quotes.length));
 
   return (
     <div
