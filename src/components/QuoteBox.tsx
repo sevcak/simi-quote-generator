@@ -14,14 +14,17 @@ const QuoteBox = () => {
         <div id='text' className='text-3xl font-bold mb-4'>
           „{quotes[currentQuoteIndex]}“
         </div>
-        <div className='text-right'>~ <span id="author">Šimi</span></div>
+        <div className='text-right'>~ <span id='author'>Šimi</span></div>
         {/* Buttons */}
         <div className='mt-12'>
-          <div id="new-quote"></div>
+          <div id='new-quote'></div>
           {/* Share */}
           <div>
             <a
-              id="tweet-quote"
+              id='tweet-quote'
+              href={`
+              https://twitter.com/intent/tweet?text=„${quotes[currentQuoteIndex]}“%0A~Šimi%0A---%0Asevcak.github.io/simi-quote-generator
+              `}
               className='block w-fit h-fit p-2 bg-rose-400 rounded-full'
             >
               <img src={twitter} alt="tweet" className='w-6 h-6' />
